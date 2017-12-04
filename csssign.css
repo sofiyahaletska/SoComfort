@@ -1,0 +1,123 @@
+#login{
+  font-family:'segan';
+  letter-spacing:1.8px;
+  text-align: center;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 12px;
+  line-height: 30px;
+  font-size: 18px;
+  color:white;
+  margin: 0 auto;
+}
+html{
+  padding: 0px;
+}
+
+#sign_menu{
+border-radius: 26px;
+margin:0 auto;
+margin-top: 250px;
+width: 500px;
+height:400px;
+background: #666666
+}
+#sign2_menu{
+  border-radius: 10px;
+  margin:0 auto;
+  width:100vh;
+  height:100vh;
+  background: #666666
+}
+.style-1 input[type="username"],.style-1 input[type="password"]  {
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  -ms-appearance:none;
+  margin-left:110px;
+  outline-width: 0;
+  soutline: none;
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  border-radius: 10px;
+  opacity: 0.43;
+}
+.style-1 input[type="text"]:hover,
+.style-1 input[type="username"]:hover,
+.style-1 input[type="password"]:hover {
+  border: solid 1px white;
+  border-radius: 12px;
+  box-shadow: 0 0 5px 1px #969696;
+}
+body,#b1{
+
+margin:0px;
+
+}
+.space1{
+  height: 30px;
+  width: 1px;
+  pointer-events: none;
+}
+.space{
+  height: 30px;
+  width: 1px;
+  pointer-events: none;
+}
+@font-face {
+    font-family:segan;
+    src: url("fonts/Comme-Light.ttf");
+}
+#b1 {
+-webkit-filter:  grayscale(0.4);
+filter:  grayscale(0.4);
+  background-image: url('b2.png');
+  background-size: cover;
+}
+#b2 {
+
+  background-image: url('wild.jpg');
+  background-size:cover;
+}
+.a-name{
+  margin:0 auto;
+  width:  340px;
+  height: 70.83;
+  background-size: contain;
+  background-image: url("untitled-2.png");
+}
+.a-name1{
+  margin:0 auto;
+  width:  500px;
+  height: 100px;
+  background-size: cover;
+  background-image: url("untitled-2.png");
+}
+#s-text{
+
+  font-family:'segan';
+  letter-spacing:1.8px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 29px;
+  line-height: 30px;
+  font-size: 40px;
+  color:#999999;
+  margin-left: 135px;
+}
+#s-text1{
+  font-family:'segan';
+  letter-spacing:1.8px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 29px;
+  line-height: 30px;
+  font-size: 35px;
+background:transparent; border:none;
+  margin-left: 140px;
+  padding: 6px 0px;
+  color:white;
+}
+#s-text1:hover{
+  opacity: 0.5;
+}
